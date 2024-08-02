@@ -8,7 +8,7 @@ export default function Footer() {
           <div className="mb-6 md:mb-0">
             <Link to="/" className="flex items-center">
               <img
-                src="https://alexharkness.com/wp-content/uploads/2020/06/logo-2.png"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5vv4NcL5GCumDdgzdK1EDtwwJTARwoJG5Dg&s"
                 className="mr-3 h-16"
                 alt="Logo"
               />
@@ -39,7 +39,7 @@ export default function Footer() {
               <ul className="text-gray-500 font-medium">
                 <li className="mb-4">
                   <a
-                    href="https://github.com/hiteshchoudhary"
+                    href="https://github.com/Madan2468"
                     className="hover:underline"
                     target="_blank"
                     rel="noreferrer"
@@ -76,9 +76,9 @@ export default function Footer() {
         <hr className="my-6 border-gray-200 sm:mx-auto lg:my-8" />
         <div className="sm:flex sm:items-center sm:justify-between">
           <span className="text-sm text-gray-500 sm:text-center">
-            © 2023
-            <a href="https://hiteshchoudhary.com/" className="hover:underline">
-              hiteshchoudhary
+            © 2024
+            <a href="" className="hover:underline">
+              MadanGopalJha
             </a>
             . All Rights Reserved.
           </span>
@@ -103,7 +103,7 @@ export default function Footer() {
               <svg
                 className="w-4 h-4"
                 aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
+                href="https://www.facebook.com/madan.jha.925602/"
                 fill="currentColor"
                 viewBox="0 0 21 16"
               >
