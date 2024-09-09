@@ -88,7 +88,7 @@ export default function Home() {
               data-aos-duration="1000"
             >
               <img
-                src="src/components/Home/real-time-map.png"
+                src="https://private-user-images.githubusercontent.com/114483527/363413768-428c0b24-e289-447b-bc63-3d0337b7a95c.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjU5MTM1MTksIm5iZiI6MTcyNTkxMzIxOSwicGF0aCI6Ii8xMTQ0ODM1MjcvMzYzNDEzNzY4LTQyOGMwYjI0LWUyODktNDQ3Yi1iYzYzLTNkMDMzN2I3YTk1Yy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwOTA5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDkwOVQyMDIwMTlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0zNDE1MjFhMjU3MjBkMmI0Yzc2NDlhNzg0M2RlNDYxNDJkODQ2ZjA5MmJhNGVjZGI0NzljMzkwMmNhY2RmYTAyJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.xJiy9NDHqKXqr1DRHFexnkYp0piGJnDdin-QopD_RQg"
                 alt="Real-Time User Tracker"
                 className="w-full h-48 object-cover rounded-lg mb-4 transform transition-transform duration-300 hover:scale-105"
               />
