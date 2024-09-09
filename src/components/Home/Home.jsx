@@ -1,74 +1,110 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "animate.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function Home() {
+  AOS.init(); // Initialize AOS
+
   return (
     <div className="bg-gray-900 text-white min-h-screen flex flex-col items-center">
-      {/* Hero Section */}
-      <header className="text-center mt-10 animate-fadeIn">
-        <h1 className="text-5xl font-extrabold leading-tight mb-4">
-          Welcome to My Digital Realm
+      {/* Introduction Section */}
+      <header className="flex flex-col items-center justify-center mt-10 animate__animated animate__fadeIn">
+        <h1 className="text-5xl font-extrabold leading-tight mb-4 animate__animated animate__fadeIn animate__delay-1s">
+          Hi, I am <span className="text-orange-500">Madan Gopal Jha</span>
         </h1>
-        <p className="text-lg sm:text-2xl max-w-3xl mx-auto">
-          I am a versatile and results-driven professional with a comprehensive
-          skill set spanning full stack web development, coding, cinematography,
-          and trading. I specialize in building dynamic, responsive web
-          applications that push the envelope of what’s possible.
+        <p className="text-lg sm:text-2xl max-w-3xl mx-auto animate__animated animate__fadeIn animate__delay-2s">
+          A passionate and results-driven{" "}
+          <span className="text-orange-500">Full Stack Web Developer</span> with
+          a focus on crafting dynamic, responsive web applications using the
+          MERN stack. I excel at transforming complex ideas into intuitive,
+          user-friendly solutions.
         </p>
         <a
           href="https://github.com/Madan2468"
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-orange-600 hover:bg-orange-500 text-white text-lg font-semibold py-3 px-8 mt-10 rounded-full shadow-lg transition-transform transform hover:scale-105 inline-block"
+          className="bg-orange-600 hover:bg-orange-500 text-white text-lg font-semibold py-3 px-8 mt-10 rounded-full shadow-lg transition-transform transform hover:scale-105 inline-block animate__animated animate__fadeIn animate__delay-3s"
         >
           Explore My Work
         </a>
       </header>
 
       {/* Featured Projects Section */}
-      <section className="mt-24 w-full px-4 animate-slideUp">
+      <section className="mt-24 w-full px-4">
         <div className="max-w-6xl mx-auto text-center">
-          <h2 className="text-4xl font-bold mb-8">Featured Projects</h2>
+          <h2
+            className="text-4xl font-bold mb-8 animate__animated animate__fadeIn"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            Featured Projects
+          </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
-            <div className="bg-gray-800 p-6 rounded-lg shadow-lg">
+            <div
+              className="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 animate__animated animate__fadeInLeft"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+            >
               <img
-                src="https://via.placeholder.com/400"
+                src="https://i.ibb.co/2M7rtLk/Remote1.png"
                 alt="Project 1"
-                className="w-full h-48 object-cover rounded-lg mb-4"
+                className="w-full h-48 object-cover rounded-lg mb-4 transform transition-transform duration-300 hover:scale-105"
               />
-              <h3 className="text-2xl font-semibold mb-2">Project One</h3>
+              <h3 className="text-2xl font-semibold mb-2">
+                YouTube Full Backend
+              </h3>
               <p>
-                A dynamic web application built using the MERN stack. This
-                project showcases my ability to build responsive, user-friendly
-                interfaces.
+                A complete backend solution for a YouTube-like platform,
+                including user management, video handling, and authentication.
               </p>
               <a
-                href="https://github.com/Madan2468"
+                href="https://github.com/Madan2468/YouTube-Backend"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-orange-500 hover:text-orange-400 mt-4 inline-block"
               >
-                View Details
+                View on GitHub
               </a>
+              <div className="mt-4">
+                <a
+                  href="https://github.com/Madan2468/YouTube-Backend"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block"
+                >
+                  <img
+                    src="https://avatars.githubusercontent.com/u/9919?v=4"
+                    alt="GitHub Logo"
+                    className="w-8 h-8 rounded-full"
+                  />
+                </a>
+              </div>
             </div>
-            <div className="bg-gray-800 p-6 rounded-lg shadow-lg">
+            <div
+              className="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 animate__animated animate__fadeInRight"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+            >
               <img
-                src="https://via.placeholder.com/400"
+                src="https://i.ibb.co/5BCcDYB/Remote2.png"
                 alt="Project 2"
-                className="w-full h-48 object-cover rounded-lg mb-4"
+                className="w-full h-48 object-cover rounded-lg mb-4 transform transition-transform duration-300 hover:scale-105"
               />
-              <h3 className="text-2xl font-semibold mb-2">Project Two</h3>
+              <h3 className="text-2xl font-semibold mb-2">Smart Bin System</h3>
               <p>
-                A complex full-stack project integrating multiple APIs and
-                microservices to deliver an innovative solution.
+                An innovative Smart Bin system integrating Arduino and real-time
+                mapping to optimize waste management for better city
+                cleanliness.
               </p>
               <a
-                href="https://github.com/Madan2468"
+                href="https://github.com/Madan2468/Smart-Bin-System"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-orange-500 hover:text-orange-400 mt-4 inline-block"
               >
-                View Details
+                View on GitHub
               </a>
             </div>
           </div>
@@ -76,9 +112,13 @@ export default function Home() {
       </section>
 
       {/* Skills Section */}
-      <section className="mt-24 w-full px-4 animate-fadeIn">
+      <section className="mt-24 w-full px-4">
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-6xl mx-auto text-center">
-          <div>
+          <div
+            className="animate__animated animate__fadeInUp animate__delay-1s"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
             <h2 className="text-3xl font-semibold mb-3">
               Full Stack Development
             </h2>
@@ -88,7 +128,11 @@ export default function Home() {
               applications.
             </p>
           </div>
-          <div>
+          <div
+            className="animate__animated animate__fadeInUp animate__delay-2s"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
             <h2 className="text-3xl font-semibold mb-3">Cinematography</h2>
             <p>
               Bringing stories to life with a keen eye for visual storytelling
@@ -96,7 +140,11 @@ export default function Home() {
               and project aesthetics.
             </p>
           </div>
-          <div>
+          <div
+            className="animate__animated animate__fadeInUp animate__delay-3s"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
             <h2 className="text-3xl font-semibold mb-3">Trading & Analysis</h2>
             <p>
               Navigating the financial markets with precision, using analytical
@@ -108,11 +156,21 @@ export default function Home() {
       </section>
 
       {/* Experience Section */}
-      <section className="mt-24 w-full px-4 animate-slideUp">
+      <section className="mt-24 w-full px-4">
         <div className="max-w-6xl mx-auto text-center">
-          <h2 className="text-4xl font-bold mb-8">Experience</h2>
+          <h2
+            className="text-4xl font-bold mb-8 animate__animated animate__fadeIn"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            Experience
+          </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
-            <div className="bg-gray-800 p-6 rounded-lg shadow-lg">
+            <div
+              className="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 animate__animated animate__fadeInLeft"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+            >
               <h3 className="text-2xl font-semibold mb-2">
                 Software Developer Intern
               </h3>
@@ -124,7 +182,11 @@ export default function Home() {
                 solutions.
               </p>
             </div>
-            <div className="bg-gray-800 p-6 rounded-lg shadow-lg">
+            <div
+              className="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 animate__animated animate__fadeInRight"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+            >
               <h3 className="text-2xl font-semibold mb-2">Cinematography</h3>
               <p className="text-orange-400">CICE | Present</p>
               <p className="mt-4">
@@ -134,7 +196,11 @@ export default function Home() {
                 Electronics.
               </p>
             </div>
-            <div className="bg-gray-800 p-6 rounded-lg shadow-lg">
+            <div
+              className="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 animate__animated animate__fadeInLeft"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+            >
               <h3 className="text-2xl font-semibold mb-2">Organising Member</h3>
               <p className="text-orange-400">
                 Esports University Conclave | April 2024 - May 2024
@@ -148,47 +214,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      {/* Contact Section */}
-      <section className="mt-24 w-full px-4 animate-fadeIn bg-gray-900 py-12">
-        <div className="max-w-6xl mx-auto text-center">
-          <h2 className="text-4xl font-bold mb-8">Get in Touch</h2>
-          <p className="text-lg mb-8">
-            Interested in working together? Let's create something amazing!
-            Reach out to me through the form below.
-          </p>
-          <form className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-4xl mx-auto">
-            <input
-              type="text"
-              placeholder="Your Name"
-              className="p-3 rounded-lg bg-gray-800 text-white"
-            />
-            <input
-              type="email"
-              placeholder="Your Email"
-              className="p-3 rounded-lg bg-gray-800 text-white"
-            />
-            <textarea
-              placeholder="Your Message"
-              className="p-3 rounded-lg bg-gray-800 text-white sm:col-span-2"
-              rows="5"
-            ></textarea>
-            <button
-              type="submit"
-              className="bg-orange-600 hover:bg-orange-500 text-white text-lg font-semibold py-3 px-8 mt-4 rounded-full shadow-lg transition-transform transform hover:scale-105 sm:col-span-2"
-            >
-              Send Message
-            </button>
-          </form>
-        </div>
-      </section>
-
-      {/* Footer Section */}
-      <footer className="mt-24 py-10 bg-gray-800 w-full text-center">
-        <p className="text-sm">
-          &copy; {new Date().getFullYear()} My Portfolio. All rights reserved.
-        </p>
-      </footer>
     </div>
   );
 }
