@@ -88,7 +88,7 @@ export default function Home() {
               data-aos-duration="1000"
             >
               <img
-                src="https://i.ibb.co/xyz1234/Remote3.png" // Replace with your project image URL
+                src="src/components/Home/real-time-map.png"
                 alt="Real-Time User Tracker"
                 className="w-full h-48 object-cover rounded-lg mb-4 transform transition-transform duration-300 hover:scale-105"
               />

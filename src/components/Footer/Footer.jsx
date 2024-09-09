@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { FaGithub, FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa"; // Importing icons from react-icons
+import { FaGithub, FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -8,7 +8,9 @@ export default function Footer() {
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row md:justify-between">
           <div className="flex items-center mb-6 md:mb-0">
-            <Link to="/" className="flex items-center"></Link>
+            <Link to="/" className="flex items-center">
+              {/* Add your logo or site name here */}
+            </Link>
           </div>
           <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3 mb-6 md:mb-0">
             <div>
@@ -28,6 +30,14 @@ export default function Footer() {
                     className="hover:underline hover:text-orange-400 transition-colors duration-300"
                   >
                     About
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/contact"
+                    className="hover:underline hover:text-orange-400 transition-colors duration-300"
+                  >
+                    Contact
                   </Link>
                 </li>
               </ul>
