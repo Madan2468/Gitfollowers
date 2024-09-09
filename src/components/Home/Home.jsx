@@ -88,7 +88,7 @@ export default function Home() {
               data-aos-duration="1000"
             >
               <img
-                src="https://private-user-images.githubusercontent.com/114483527/363413768-428c0b24-e289-447b-bc63-3d0337b7a95c.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjU5MTM1MTksIm5iZiI6MTcyNTkxMzIxOSwicGF0aCI6Ii8xMTQ0ODM1MjcvMzYzNDEzNzY4LTQyOGMwYjI0LWUyODktNDQ3Yi1iYzYzLTNkMDMzN2I3YTk1Yy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwOTA5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDkwOVQyMDIwMTlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0zNDE1MjFhMjU3MjBkMmI0Yzc2NDlhNzg0M2RlNDYxNDJkODQ2ZjA5MmJhNGVjZGI0NzljMzkwMmNhY2RmYTAyJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.xJiy9NDHqKXqr1DRHFexnkYp0piGJnDdin-QopD_RQg"
+                src="https://media.licdn.com/dms/image/v2/D562DAQHTUCi7pDVVpg/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1725176437493?e=1726520400&v=beta&t=rHS8SPfr8fqBq673RWP4REzlSzTO6UGJdiPndU8NL2I"
                 alt="Real-Time User Tracker"
                 className="w-full h-48 object-cover rounded-lg mb-4 transform transition-transform duration-300 hover:scale-105"
               />
@@ -148,7 +148,7 @@ export default function Home() {
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            <h2 className="text-3xl font-semibold mb-3">Cinematography Head</h2>
+            <h2 className="text-3xl font-semibold mb-3">Cinematography</h2>
             <p>
               Bringing stories to life with a keen eye for visual storytelling
               and design. My cinematography skills enhance the user experience
@@ -202,7 +202,9 @@ export default function Home() {
               data-aos="fade-left"
               data-aos-duration="1000"
             >
-              <h3 className="text-2xl font-semibold mb-2">Cinematography</h3>
+              <h3 className="text-2xl font-semibold mb-2">
+                Cinematography Head
+              </h3>
               <p className="text-orange-400">CICE | Present</p>
               <p className="mt-4">
                 Responsible for capturing and editing high-quality visual
