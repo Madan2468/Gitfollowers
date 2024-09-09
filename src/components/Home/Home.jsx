@@ -148,7 +148,7 @@ export default function Home() {
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            <h2 className="text-3xl font-semibold mb-3">Cinematography</h2>
+            <h2 className="text-3xl font-semibold mb-3">Cinematography Head</h2>
             <p>
               Bringing stories to life with a keen eye for visual storytelling
               and design. My cinematography skills enhance the user experience
