@@ -88,24 +88,39 @@ export default function Home() {
               data-aos-duration="1000"
             >
               <img
-                src="https://i.ibb.co/5BCcDYB/Remote2.png"
-                alt="Project 2"
+                src="https://i.ibb.co/xyz1234/Remote3.png" // Replace with your project image URL
+                alt="Real-Time User Tracker"
                 className="w-full h-48 object-cover rounded-lg mb-4 transform transition-transform duration-300 hover:scale-105"
               />
-              <h3 className="text-2xl font-semibold mb-2">Smart Bin System</h3>
+              <h3 className="text-2xl font-semibold mb-2">
+                Real-Time User Tracker
+              </h3>
               <p>
-                An innovative Smart Bin system integrating Arduino and real-time
-                mapping to optimize waste management for better city
-                cleanliness.
+                A dynamic user tracking system in real-time, showcasing live
+                data updates and tracking functionalities.
               </p>
               <a
-                href="https://github.com/Madan2468/Smart-Bin-System"
+                href="https://github.com/Madan2468/RealTime-user-Tracker-"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-orange-500 hover:text-orange-400 mt-4 inline-block"
               >
                 View on GitHub
               </a>
+              <div className="mt-4">
+                <a
+                  href="https://github.com/Madan2468/RealTime-user-Tracker-"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block"
+                >
+                  <img
+                    src="https://avatars.githubusercontent.com/u/9919?v=4"
+                    alt="GitHub Logo"
+                    className="w-8 h-8 rounded-full"
+                  />
+                </a>
+              </div>
             </div>
           </div>
         </div>
