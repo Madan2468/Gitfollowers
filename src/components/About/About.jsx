@@ -25,7 +25,7 @@ export default function About() {
           <p className="text-lg sm:text-2xl max-w-3xl mx-auto md:mx-0 animate__animated animate__fadeIn animate__delay-2s">
             I am a passionate and results-driven{" "}
             <span className="text-orange-500">Full Stack Web Developer</span>{" "}
-            currently pursuing a BTech + Tech from Jaypee Institute of
+            currently pursuing a BTech + MTech from Jaypee Institute of
             Information Technology, Noida (2022-2027). I excel at transforming
             complex ideas into intuitive, user-friendly solutions.
           </p>
