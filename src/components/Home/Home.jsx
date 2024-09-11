@@ -205,9 +205,9 @@ export default function Home() {
               <h3 className="text-2xl font-semibold mb-2">
                 Cinematography Head
               </h3>
-              <p className="text-orange-400">CICE | Present</p>
+              <p className="text-orange-400">CICE | August 2024 - Present</p>
               <p className="mt-4">
-                Responsible for capturing and editing high-quality visual
+                Leading the cinematography team, capturing and creating visual
                 content that tells compelling stories, contributing to various
                 creative projects at the Creativity and Innovation Cell in
                 Electronics.
@@ -228,6 +228,75 @@ export default function Home() {
                 experience for participants.
               </p>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Profile Visit Section */}
+      <section className="mt-24 w-full px-4 relative">
+        <div
+          className="absolute inset-0 bg-cover bg-center"
+          style={{
+            backgroundImage:
+              'url("https://source.unsplash.com/1600x900/?technology,code")',
+          }}
+        ></div>
+        <div className="relative z-10 max-w-6xl mx-auto text-center bg-gray-900 bg-opacity-70 p-8 rounded-lg shadow-lg">
+          <h2
+            className="text-4xl font-bold mb-8 animate__animated animate__fadeIn"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            Profile Visits
+          </h2>
+          <div
+            className="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 animate__animated animate__zoomIn"
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+          >
+            <p className="text-3xl font-bold mb-4">Profile Visits: 1234</p>
+            <p className="text-lg">
+              Track the number of visits to my profile. Thank you for your
+              interest!
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Feedback Section */}
+      <section className="mt-24 w-full px-4 relative">
+        <div
+          className="absolute inset-0 bg-cover bg-center"
+          style={{
+            backgroundImage:
+              'url("https://source.unsplash.com/1600x900/?feedback,comments")',
+          }}
+        ></div>
+        <div className="relative z-10 max-w-6xl mx-auto text-center bg-gray-900 bg-opacity-70 p-8 rounded-lg shadow-lg">
+          <h2
+            className="text-4xl font-bold mb-8 animate__animated animate__fadeIn"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            Feedback
+          </h2>
+          <div
+            className="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 animate__animated animate__fadeInUp"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            <p className="text-lg mb-4">
+              I value your feedback! Please drop me a line to share your
+              thoughts or suggestions.
+            </p>
+            <a
+              href="mailto:madanjha2468@gmail.com"
+              className="bg-orange-600 hover:bg-orange-500 text-white text-lg font-semibold py-3 px-6 rounded-full shadow-lg transition-transform transform hover:scale-105 inline-block animate__animated animate__pulse"
+              data-aos="pulse"
+              data-aos-duration="1000"
+            >
+              Send Feedback
+            </a>
           </div>
         </div>
       </section>
