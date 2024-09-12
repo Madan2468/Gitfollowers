@@ -1,6 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { FaGithub, FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
+import {
+  FaGithub,
+  FaTwitter,
+  FaLinkedin,
+  FaInstagram,
+  FaEnvelope,
+} from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -77,6 +83,12 @@ export default function Footer() {
                 >
                   <FaInstagram className="w-6 h-6" />
                 </a>
+                <a
+                  href="mailto:madanjha2468@gmail.com"
+                  className="text-gray-300 hover:text-orange-400 transition-colors duration-300"
+                >
+                  <FaEnvelope className="w-6 h-6" />
+                </a>
               </div>
             </div>
             <div>
@@ -150,6 +162,13 @@ export default function Footer() {
             >
               <FaInstagram className="w-5 h-5" />
               <span className="sr-only">Instagram</span>
+            </a>
+            <a
+              href="mailto:madanjha2468@gmail.com"
+              className="text-gray-300 hover:text-orange-400 transition-colors duration-300"
+            >
+              <FaEnvelope className="w-5 h-5" />
+              <span className="sr-only">Email</span>
             </a>
           </div>
         </div>
