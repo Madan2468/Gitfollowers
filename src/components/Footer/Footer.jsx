@@ -11,14 +11,14 @@ import {
 export default function Footer() {
   return (
     <footer className="bg-gradient-to-r from-gray-900 to-gray-700 text-white py-8">
-      <div className="container mx-auto px-6">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row md:justify-between">
           <div className="flex items-center mb-6 md:mb-0">
             <Link to="/" className="flex items-center">
               {/* Add your logo or site name here */}
             </Link>
           </div>
-          <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3 mb-6 md:mb-0">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mb-6 md:mb-0">
             <div>
               <h2 className="text-lg font-semibold mb-4">Resources</h2>
               <ul className="space-y-2">
